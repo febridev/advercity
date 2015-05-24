@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Advercity</title>
-	<link rel="stylesheet" href="{{asset('/font-awesome/font-awesome.min.css')}}">
+	<link rel="stylesheet" href="{{asset('/font-awesome/css/font-awesome.min.css')}}">
 	<script src="{{asset('/jquery/jquery.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('/onepagescroll/jquery.onepage-scroll.min.js')}}" type="text/javascript"></script>
 	<link rel="stylesheet" href="{{asset('/css/style.css')}}">
@@ -26,7 +26,6 @@
 		<section class="two">
 			<div class="page-container">
 				<h2>Always update with new event, everywhere</h2>
-				<p>asdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsaddddddddddd</p>
 			</div>
 		</section>
 		
