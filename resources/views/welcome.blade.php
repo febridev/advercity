@@ -1,48 +1,46 @@
-<html>
-	<head>
-		<title>Laravel</title>
-		
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #B0BEC5;
-				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
-			}
-
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
-
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
-
-			.title {
-				font-size: 96px;
-				margin-bottom: 40px;
-			}
-
-			.quote {
-				font-size: 24px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Advercity</title>
+	<link rel="stylesheet" href="{{asset('/font-awesome/font-awesome.min.css')}}">
+	<script src="{{asset('/jquery/jquery.min.js')}}" type="text/javascript"></script>
+	<script src="{{asset('/onepagescroll/jquery.onepage-scroll.min.js')}}" type="text/javascript"></script>
+	<link rel="stylesheet" href="{{asset('/css/style.css')}}">
+	<link rel="stylesheet" href="{{asset('/onepagescroll/onepage-scroll.css')}}">
+</head>
+<header>
+	<h1><a href="#">Advercity</a></h1>
+</header>
+<body>
+	<div class="main">
+		<section class="one">
+			<div class="page-container">
+				<h2>Advercity</h2>
+				<p>Where are you,</p>
+				<p>is many event</p>
+				<i class="fa fa-camera-retro fa-lg"></i>
 			</div>
-		</div>
-	</body>
+		</section>
+		
+		<section class="two">
+			<div class="page-container">
+				<h2>Always update with new event, everywhere</h2>
+				<p>asdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsadddddddddddasdasdsaddddddddddd</p>
+			</div>
+		</section>
+		
+		<section class="three">
+			<div class="page-container">
+				<h2>Please Login here -> if you update</h2>
+			</div>
+		</section>
+	</div>
+</body>
+<script>
+$(".main").onepage_scroll({
+		sectionContainer: "section"
+	});	
+</script>
+
 </html>
