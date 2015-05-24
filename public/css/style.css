@@ -1,8 +1,21 @@
 /* css index page */
+@font-face{
+	font-family: oxygen-light;
+	src: url(/fonts/oxygen/Oxygen-Light.ttf);
+}
+@font-face{
+	font-family: oxygen-regular;
+	src: url(/fonts/oxygen/Oxygen-Regular.ttf);
+}
+@font-face{
+	font-family: oxygen-bold;
+	src: url(/fonts/oxygen/Oxygen-Bold.ttf);
+}
+
 /* Header */
 header{
 	background: #5b264e;
-	padding: 10px 20px;
+	padding: 1px 20px;
 	margin-bottom: 0;
 	position: relative;
 	z-index: 10;
@@ -16,9 +29,9 @@ header img{
 	float: left;
 }
 header h1{
-	margin-top:20px;
+	margin-top:5px;
 	margin-left:80px;
-	font-family: 'Righteous', cursive;
+	font-family: oxygen-light;
 }
 
 /* Content */
@@ -27,7 +40,7 @@ header h1{
 	background: url(../img/twd-logo.png) right top no-repeat;
 }
 .one{
-	background-color: #ae6c66;
+	/*background-color: #ae6c66; */
 }
 	.one .page-container{
 		position: absolute;
